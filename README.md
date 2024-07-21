@@ -1,5 +1,7 @@
 # look_into_india_plotly-project
 This Streamlit application provides an interactive visualization of various socio-economic parameters for different states and districts in India. The application allows users to explore data on population, literacy rates, internet usage, and more, using an intuitive and interactive interface.
+![Screenshot 2024-07-18 122539](https://github.com/user-attachments/assets/cac9e951-b2dc-4adf-ae51-bafe002e6e0f)
+
 
 ## Features
 
