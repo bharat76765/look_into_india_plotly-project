@@ -2,12 +2,14 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-
+import logging
 # Set page configuration
 st.set_page_config(page_title="India Data Visualization", layout='wide')
 
 # Load data
 df = pd.read_csv('india.csv')
+logging.basicConfig(filename="app.log", level=logging.INFO, format="%(asctime)s - %(message)s")
+logging.info("logging")
 
 # Main header
 st.title("Look into India")
